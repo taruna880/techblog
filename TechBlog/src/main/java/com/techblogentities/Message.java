@@ -1,0 +1,32 @@
+package com.techblogentities;
+
+public class Message {
+	private String content;
+	private String type;
+	private String cssClass;
+	public Message(String c, String t,String css)
+	{
+		content=c;
+		type=t;
+		cssClass=css;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getCssClass() {
+		return cssClass;
+	}
+	public void setCssClass(String cssClass) {
+		this.cssClass = cssClass;
+	}
+	
+}
